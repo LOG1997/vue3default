@@ -17,7 +17,7 @@ import {ElDialog} from 'element-plus'
 在```server```文件夹中存放后端文件。入口文件为``app.js``，默认运行在本地``4000``端口上。
 
 
-##如何开始
+# 如何开始
 ```
 //进入项目目录
 cd vue3default
@@ -33,7 +33,7 @@ npm install
 
 ```
 
-#命令
+# 命令
 在项目根目录下执行
 ```
 //运行前端
@@ -48,7 +48,7 @@ npm run dev
 //打包
 npm run build
 ```
-参考链接
+## 参考链接
 [vue3](https://v3.cn.vuejs.org/)、[vite](https://vitejs.cn/)、[element-plus](https://element-plus.gitee.io/zh-CN/)、[windicss](https://cn.windicss.org/)
 
 
