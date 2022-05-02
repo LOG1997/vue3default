@@ -8,9 +8,9 @@
 
 4. ``vite``配置中将``src``目录别名设置为``@``符号，可在项目中直接使用```@```
 5. 默认引入element-plus框架，按需使用，在需要使用到element-plus框架的组件中使用import引入即可，如：
-```
-import {ElDialog} from 'element-plus'
-```
+    ```
+    import {ElDialog} from 'element-plus'
+    ```
 
 6. windicss使用方法见[此处](https://cn.windicss.org/)。
 # node express后端
