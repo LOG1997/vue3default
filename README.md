@@ -7,12 +7,12 @@
 3. 封装```axios```模块在```src/apis```目录下，并将```api```都写到```request.js```文件中集中管理
 
 4. ``vite``配置中将``src``目录别名设置为``@``符号，可在项目中直接使用```@```
-5. 默认引入element-plus框架，按需使用，在需要使用到element-plus框架的组件中使用import引入即可，如：
+5. 默认引入```element-plus```框架，按需使用，在需要使用到```element-plus```框架的组件中使用```import```引入即可，如：
     ```
     import {ElDialog} from 'element-plus'
     ```
 
-6. windicss使用方法见[此处](https://cn.windicss.org/)。
+6. ```windicss```使用方法见[此处](https://cn.windicss.org/)。
 # node express后端
 在```server```文件夹中存放后端文件。入口文件为``app.js``，默认运行在本地``4000``端口上。
 
