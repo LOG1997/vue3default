@@ -1,3 +1,12 @@
+/*
+ * @Author: LOG
+ * @FilePath: \vue3default\vite.config.ts
+ * @Descripttion: 
+ * @version: 
+ * @Date: 2022-05-02 09:10:02
+ * @LastEditors: LOG
+ * @LastEditTime: 2022-05-29 21:48:30
+ */
 import { defineConfig } from "vite";
 import vue from "@vitejs/plugin-vue";
 import WindiCSS from "vite-plugin-windicss";
@@ -35,6 +44,7 @@ export default defineConfig({
       },
       origin: 'http://127.0.0.1:8080/'
   },
+  base:'/vue3default/',
   resolve: {
     alias: {
       

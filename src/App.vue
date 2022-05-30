@@ -3,6 +3,7 @@
 </script>
 
 <template>
+ssssss
 <router-view></router-view>
 </template>
 

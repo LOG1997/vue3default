@@ -1,13 +1,13 @@
-import { createRouter, createWebHistory } from "vue-router";
+import { createRouter, createWebHashHistory } from "vue-router";
 
 import Home from "../views/Home.vue";
 const routes = [
   // home路径重定向到根路径
   {
     path: "/home",
-    redirect: "/",
+    name: "Home",
+    component: Home,
   },
-  
   {
     path: "/",
     name: "Home",
@@ -17,8 +17,8 @@ const routes = [
 ];
 
 const router = createRouter({
-  history: createWebHistory(),
-  routes,
+  history: createWebHashHistory(),
+    routes,
 });
 
 export default router;
